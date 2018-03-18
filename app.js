@@ -78,7 +78,7 @@ board.on("ready", function () {
                 if (old_mass < 30) {
                     console.log("Hoş geldiniz!");
                 }
-                console.log("//Dünya'da " + mass + " kg\n" + 
+                console.log("Dünya'da " + mass + " kg\n" + 
                 "Güneş'te " + getWM(mass, 0) + " kg\n" + 
                 "Merkür'de " + getWM(mass, 1) + " kg\n" + 
                 "Venüs'te " + getWM(mass, 2) + " kg\n" +
