@@ -6,8 +6,9 @@ const url = require('url')
 
 let mainWindow
 
-function createWindow () {
-  mainWindow = new BrowserWindow({width: 800, height: 600, icon: './solar.ico', frame:false})
+function createWindow() {
+  mainWindow = new BrowserWindow({ width: 1600, height: 900, icon: './solar.ico', frame:false})
+  mainWindow.setFullScreen(true);
   mainWindow.loadURL(url.format({
     pathname: path.join(__dirname, 'index.html'),
     protocol: 'file:',

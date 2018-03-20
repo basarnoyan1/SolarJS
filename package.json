@@ -1,6 +1,6 @@
 {
   "name": "SolarJS",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Converting mass data from Arduino to weight values ​​on the solar system planets.",
   "main": "main.js",
   "scripts": {
@@ -13,9 +13,11 @@
   "author": "basarnoyan1",
   "license": "MIT",
   "devDependencies": {
-    "electron": "~1.8.2"
+    "electron": "~1.8.2",
+    "electron-rebuild": "^1.7.3"
   },
   "dependencies": {
-    "johnny-five": "^0.14.1"
+    "johnny-five": "^0.14.1",
+    "serialport": "^6.1.1"
   }
 }

@@ -10,15 +10,21 @@ p{
     font-family: sans-serif;
     padding:10px;
 }
-.outer-div
-{
-    border-radius: 25px;
-    background: #73AD21;
-    padding: 10px;
-    margin: auto;
-    width: 55%
+.test{
+    padding-top: 13%;
+    padding-left: 5%;
+    color:rgba(255, 255, 255, 0.74);
 }
-.inner-div
-{
-     margin: auto;
+.bt1{
+    position: absolute;
+    bottom: 5%;
+    text-align:center;
+    background:none;
+    border:none;
+    margin:0;
+    color:rgba(255, 255, 255, 0.74);
 }
+body {
+    background-image: url("solar3.png");
+    background-size: cover;
+ }
